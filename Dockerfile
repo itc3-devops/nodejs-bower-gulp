@@ -8,7 +8,7 @@
 FROM dockerfile/nodejs
 
 # Install Bower & Gulp
-RUN npm install -g bower gulp
+RUN npm install -g bower gulp yarn gulp-cli
 
 # Define working directory.
 WORKDIR /data
